@@ -1,8 +1,7 @@
 # file-storage-api
 Projeto de estudos desenvolvido em Java com Spring Boot. Ele permite fazer upload, download e listar arquivos armazenados em um diretório específico no servidor.
 
-Este projeto foi desenvolvido como parte de um estudo, seguindo o tutorial disponível em: Tutorial de Spring Boot File Upload por Giuliana Bezerra.
-	[Texto de exibição do link]([https://www.youtube.com/watch?v=b6kvS1Wszew&ab_channel=GiulianaBezerra)]
+Este projeto foi desenvolvido como parte de um estudo, [seguindo o tutorial disponível em:]([http://www.exemplodeurl.com](https://www.youtube.com/watch?v=b6kvS1Wszew&ab_channel=GiulianaBezerra))
 
 Funcionalidades
 Upload de Arquivos: Permite fazer upload de arquivos para o servidor.
