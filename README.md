@@ -1,19 +1,19 @@
-# file-storage-api
+## file-storage-api
 Projeto de estudos desenvolvido em Java com Spring Boot. Ele permite fazer upload, download e listar arquivos armazenados em um diretório específico no servidor.
 
-Este projeto foi desenvolvido como parte de um estudo , seguindo o tutorial disponível no canal da:[Giuliana Bezerra](https://www.youtube.com/watch?v=b6kvS1Wszew&ab_channel=GiulianaBezerra).
+Este projeto foi desenvolvido como parte de um estudo.
 
 
-# Funcionalidades
+## Funcionalidades
 * Upload de Arquivos: Permite fazer upload de arquivos para o servidor.
 * Download de Arquivos: Permite baixar arquivos previamente enviados para o servidor.
 * Listagem de Arquivos: Fornece uma lista dos arquivos armazenados no servidor.
   
-# Como Testar
+## Como Testar
 Certifique-se de ter o Java e o Maven instalados no seu sistema.
 Você também precisará do curl instalado para executar os comandos de teste.
 
-# Passos para Testar
+## Passos para Testar
 Clone o Repositório:
 
 ``` git clone https://github.com/seu-usuario/file-storage-api.git ```
@@ -34,19 +34,25 @@ Iniciar o Serviço:
 
 ```java -jar target/file-storage-api.jar``` 
 
-# Testar o Upload de Arquivo:
+## Testar o Upload de Arquivo:
 
 Antes de executar este comando, crie uma pasta chamada files dentro da pasta Downloads do seu sistema e coloque um arquivo dentro dela (por exemplo, test.txt).
 
 ```curl -X POST -F "file=@caminho/do/arquivo/test.txt" http://localhost:8080/api/files/upload```
 
-# Testar o Download de Arquivo:
+## Testar o Download de Arquivo:
 
 ```curl -OJL http://localhost:8080/api/files/download/test.txt``` 
 
-# Listar Arquivos Disponíveis:
+## Listar Arquivos Disponíveis:
 
 ```curl http://localhost:8080/api/files/list```
 
-# Contribuindo
-Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou abrir issues se encontrar algum problema.
+## Contato
+
+Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
+
+- Nome: João Gabriel de Oliveira Meireles
+- Email: joaog.meireles@outlook.com
+- LinkedIn: https://www.linkedin.com/in/joaogomeireles/
+
